@@ -132,12 +132,32 @@
                     </div>
 
                     <div class="form-group row">
-                        <div class="col-md-6 offset-md-2">
+                        <div class="col-md-5 offset-md-2">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
                                 <label class="form-check-label" for="approve"></label>
-                                <strong>May we contact you?</strong>
+                                <strong>Click if you agree we contact you and select your preferred way</strong>
                             </div>
+                        </div>
+
+                        <div class="col-md-2 ">
+                            <select class="form-control" name="preferred-contact" id="preferred-contact">
+                                <option value="">Tel</option>
+                                <option value="">Email</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Feedback</label>
+                        <div class="col-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="6"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-success">Send</button>
                         </div>
                     </div>
                 </form>
@@ -189,7 +209,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2020 Con Fusion</p>
                 </div>
             </div>
         </div>
