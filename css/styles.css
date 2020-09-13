@@ -1,0 +1,39 @@
+body{
+    padding: 50px 0 0 0;
+    z-index: 0;
+}
+
+.navbar-dark{
+    background-color: #ea907a;
+}
+
+.row-header {
+    padding: 0px auto;
+    margin:10px auto; 
+}
+ 
+.row-content{
+    padding: 50px 0px 50px 0px;
+    margin:0px auto; 
+    border-bottom: 1px ridge ;
+    min-height: 400px;
+}
+
+.footer{
+    background-color: #8bcdcd;
+    padding: 20px 0px 20px 0px;
+    margin:0px auto; 
+} 
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto; 
+    background-color:#faf0af;
+}
+
+.address{
+    font-size: 70%;
+    margin:0;
+    color: black;
+}
+
